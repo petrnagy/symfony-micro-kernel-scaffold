@@ -11,3 +11,6 @@
 
 !/var/.keep
 /config/*.yaml
+/.phpunit.result.cache
+/composer.phar
+/config/reference.php

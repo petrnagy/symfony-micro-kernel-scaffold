@@ -1,6 +1,6 @@
 # Symfony Micro Kernel Scaffold / Silex alternative
 
-Micro kernel Symfony 6.3 application based on this guide:
+Micro kernel Symfony 8 application based on this guide:
 [Building your own Framework with the MicroKernelTrait](https://symfony.com/doc/current/configuration/micro_kernel_trait.html)
 
 Very minimalistic app, similar to deprecated Silex microframework.
@@ -16,7 +16,11 @@ How to:
 Change `localhost:8000` to your virtual host address _if you didn't use the Symfony Local Web Server_
 
 Requirements:
-- `PHP 8.1+`
+- `PHP 8.4+`
+
+Testing:
+1. Install dependencies: `composer install`
+2. Run unit tests: `composer test`
 
 Cheers,
 Petr
