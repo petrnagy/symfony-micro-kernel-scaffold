@@ -55,8 +55,8 @@ class Kernel extends BaseKernel
     {
         // import the WebProfilerRoutes, only if the bundle is enabled
         if (isset($this->bundles['WebProfilerBundle'])) {
-            $routes->import('@WebProfilerBundle/Resources/config/routing/wdt.xml')->prefix('/_wdt');
-            $routes->import('@WebProfilerBundle/Resources/config/routing/profiler.xml')->prefix('/_profiler');
+            $routes->import('@WebProfilerBundle/Resources/config/routing/wdt.php')->prefix('/_wdt');
+            $routes->import('@WebProfilerBundle/Resources/config/routing/profiler.php')->prefix('/_profiler');
         }
 
         // load the routes defined as PHP attributes
